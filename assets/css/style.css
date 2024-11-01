@@ -70,6 +70,18 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Games section */
+#new-games .card-footer, #fav-games .card-footer {
+    background-color: transparent;
+    border: none;
+}
+
+#new-games .card, #fav-games .card {
+    margin-bottom: 1.5rem;
+    border: none;
+}
+
+
 /* grid visualisation CSS for testing */
 /* .container,
 .row {
