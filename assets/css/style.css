@@ -66,6 +66,7 @@ h2 {
     background-color: var(--highlight-color);
     color: white;
 }
+
 /* Navbar */
 
 #navbar {
@@ -92,6 +93,30 @@ h2 {
 #services .card {
     margin-bottom: 1.5rem;
 }
+
+/* Events section */
+#events .table *{
+    font-size: 96%;
+}
+
+#discount-banner {
+    border: 2px solid var(--highlight-color);
+    background-color: var(--highlight-color);
+    color:white;
+    /* overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 2rem;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    width: 57%; */
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    font-weight: bolder;
+    font-size: 80%;
+    
+}
+
+
 
 /* Games section */
 #new-games .card-footer, #fav-games .card-footer {
@@ -160,6 +185,10 @@ h2 {
     #services .card-body {
         min-height: 191px;
     }
+
+    .discount-container{
+        justify-content: center;
+    } 
 }
 
 /* Large devices (tablets, 992px and up */
@@ -176,6 +205,10 @@ h2 {
     #services .card-body {
         min-height: 220px;
     }
+/* 
+    #discount-banner {
+        text-align: right;
+    } */
 }
 
 /* XXLarge devices (tablets, 1400px and up */
