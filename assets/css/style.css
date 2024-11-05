@@ -40,9 +40,7 @@ h2 {
 }
 
 .section {
-    /* margin-top: 2rem;
-    margin-bottom: 2rem; 
-    prevent navbar hiding section title*/
+    /* prevent navbar hiding section title*/
     padding-top: 4rem; 
 }
 
@@ -157,9 +155,12 @@ h2 {
     margin-right: 15px;
 }
 
+
 #contact .social-links i {
     color:var(--light-highlight-color);
     font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
@@ -170,18 +171,6 @@ h2 {
 #contact .table-dark * {
     background-color: transparent;
 }
-
-/* grid visualisation CSS for testing */
-/* .container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
-
 /* Media queries */
 
 /* Small devices (576px and up */
@@ -222,10 +211,6 @@ h2 {
     #services .card-body {
         min-height: 220px;
     }
-/* 
-    #discount-banner {
-        text-align: right;
-    } */
 }
 
 /* XXLarge devices (tablets, 1400px and up */
