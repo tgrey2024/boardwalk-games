@@ -185,7 +185,7 @@
             <div class="col-12 col-md-6 col-xl-3">
               <div class="card">
                   <img src="assets/images/fav-games-2.webp" class="card-img-top"
-                      alt="Monopoly board game" />
+                      alt="Monopoly board game">
                   <div class="card-body">
                       <!-- bootstrap cards come as h5 by default, changed to h3 to fit project heading hierarchy -->
                       <h3 class="card-title sub-heading-color">Monopoly</h3>
@@ -252,8 +252,9 @@
                           <input class="form-control" id="email" name="email" type="email" required>
                       </div>
                       <div class="col-12 col-lg-8 mb-3">
-                          <label for="event-type" class="form-label">Select game</label>
-                          <select id="event-type" class="form-select" name="event-type" required>
+                          <label for="game-selection" class="form-label">Select game</label>
+                          <select id="game-selection" class="form-select" name="game-selection" required>
+                              <option value="" selected>Select Game</option>
                               <option value="galaxy-pioneers">Galaxy Pioneers</option>
                               <option value="mystic-woods">Mystic Woods</option>
                               <option value="captains-gambit">Captain's Gambit</option>
@@ -267,10 +268,11 @@
                       <div class="col-12 col-lg-4 mb-3">
                           <label for="requested">Requested date</label>
                           <br>
-                          <input type="date" id="requested" name="requested" value="dd/mm/yyyy" min="2024-11-04" max="2025-12-31" required>
+                          <input type="date" id="requested" name="requested" required>
                       </div>
-                  <div class="col-12 text-end">
+                      <div class="col-12 text-end">
                       <button type="submit" class="btn custom-button-outline mt-3">Submit</button>
+                      </div>
                     </div>
                   </form>
               </div>
