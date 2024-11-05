@@ -230,30 +230,28 @@
           </div>
       </section>
       <!-- Game reservation form section -->
-      <section id="game-reservation" class="container section">
+      <section id="game-reservation" class="container section mb-5">
           <div class="row justify-content-center">
-            <div class="col-12 text-center">
-              <h2 class="display-6">Reserve a game</h2>
-              <p class="my-4">
+            <div class="col-12 col-md-8">
+              <h2 class="display-6 text-center">Reserve a game</h2>
+              <p>
                   Reserve a board game for your next visit to Boardwalk Games. Pick your challenge, and let the adventure begin! Fill out your details and preferred game below, and we'll have it set aside for you when you arrive.
               </p>
-            </div>
-            <div class="col-12 col-md-8">
               <form action="success.html" method="get">
                   <div class="row">
-                      <div class="col-12 col-lg-6 mb-3">
+                      <div class="col-12 col-lg-4 mb-3">
                           <label for="full-name" class="form-label">Full Name</label>
                           <input class="form-control" id="full-name" name="full-name" type="text" required>
                       </div>
-                      <div class="col-12 col-lg-6 mb-3">
+                      <div class="col-12 col-lg-4 mb-3">
                           <label for="phone" class="form-label">Phone number</label>
                           <input class="form-control" id="phone" name="phone" type="number" required>
                       </div>
-                      <div class="col-12 col-lg-6 mb-3">
+                      <div class="col-12 col-lg-4 mb-3">
                           <label for="email" class="form-label">Email address</label>
                           <input class="form-control" id="email" name="email" type="email" required>
                       </div>
-                      <div class="col-12 col-lg-6 mb-3">
+                      <div class="col-12 col-lg-8 mb-3">
                           <label for="event-type" class="form-label">Select game</label>
                           <select id="event-type" class="form-select" name="event-type" required>
                               <option value="galaxy-pioneers">Galaxy Pioneers</option>
@@ -266,15 +264,13 @@
                               <option value="cluedo">Cluedo</option>
                           </select>
                       </div>
-                      <div class="col-12 mb-3">
+                      <div class="col-12 col-lg-4 mb-3">
                           <label for="requested">Requested date</label>
                           <br>
                           <input type="date" id="requested" name="requested" value="dd/mm/yyyy" min="2024-11-04" max="2025-12-31" required>
                       </div>
-                  </div >
-                  <div>
-                        <!-- need to right align btn -->
-                      <button type="submit" class="btn custom-button-outline col-3 ms-auto">Submit</button>
+                  <div class="col-12 text-end">
+                      <button type="submit" class="btn custom-button-outline mt-3">Submit</button>
                     </div>
                   </form>
               </div>
